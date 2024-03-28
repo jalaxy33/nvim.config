@@ -7,7 +7,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## 🛠️ Installation
 
-You can find a starter template for **LazyVim** [here](https://github.com/LazyVim/starter)
+You can find a starter template for **LazyVim** [here](https://github.com/jalaxy33/nvim.config)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="local" label="Linux/MacOS" default>
 
-Install the [LazyVim Starter](https://github.com/LazyVim/starter)
+Install the [LazyVim Starter](https://github.com/jalaxy33/nvim.config)
 
 - Make a backup of your current Neovim files:
 
@@ -32,7 +32,7 @@ Install the [LazyVim Starter](https://github.com/LazyVim/starter)
 - Clone the starter
 
   ```sh
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
+  git clone https://github.com/jalaxy33/nvim.config ~/.config/nvim
   ```
 
 - Remove the `.git` folder, so you can add it to your own repo later
@@ -53,7 +53,7 @@ Install the [LazyVim Starter](https://github.com/LazyVim/starter)
 
 <TabItem value="windows" label="Windows">
 
-Install the [LazyVim Starter](https://github.com/LazyVim/starter)
+Install the [LazyVim Starter](https://github.com/jalaxy33/nvim.config)
 with [PowerShell](https://github.com/PowerShell/PowerShell)
 
 - Make a backup of your current Neovim files:
@@ -69,7 +69,7 @@ with [PowerShell](https://github.com/PowerShell/PowerShell)
 - Clone the starter
 
   ```powershell
-  git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
+  git clone https://github.com/jalaxy33/nvim.config $env:LOCALAPPDATA\nvim
   ```
 
 - Remove the `.git` folder, so you can add it to your own repo later
@@ -93,7 +93,7 @@ with [PowerShell](https://github.com/PowerShell/PowerShell)
 ```sh
 docker run -w /root -it --rm alpine:edge sh -uelic '
   apk add git lazygit neovim ripgrep alpine-sdk --update
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
+  git clone https://github.com/jalaxy33/nvim.config ~/.config/nvim
   cd ~/.config/nvim
   nvim
 '
