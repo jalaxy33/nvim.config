@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="local" label="Linux/MacOS" default>
 
-Install the [LazyVim Starter](https://github.com/jalaxy33/nvim.config)
+Install the [LazyVim Starter](https://github.com/jalaxy33/nvim.config) in Linux/MacOS.
 
 - Make a backup of your current Neovim files:
 
