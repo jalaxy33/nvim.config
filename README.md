@@ -8,14 +8,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ## 🛠️ Installation
 
 You can find a starter template for **LazyVim** [here](https://github.com/jalaxy33/nvim.config)
+### Linux/MacOS
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="local" label="Linux/MacOS" default>
-
-Install the [LazyVim Starter](https://github.com/jalaxy33/nvim.config) in Linux/MacOS.
+Install the [LazyVim Starter](https://github.com/jalaxy33/nvim.config)
 
 - Make a backup of your current Neovim files:
 
@@ -49,9 +44,8 @@ Install the [LazyVim Starter](https://github.com/jalaxy33/nvim.config) in Linux/
 
   Refer to the comments in the files on how to customize **LazyVim**.
 
-</TabItem>
 
-<TabItem value="windows" label="Windows">
+### Windows
 
 Install the [LazyVim Starter](https://github.com/jalaxy33/nvim.config)
 with [PowerShell](https://github.com/PowerShell/PowerShell)
@@ -86,10 +80,8 @@ with [PowerShell](https://github.com/PowerShell/PowerShell)
 
   Refer to the comments in the files on how to customize **LazyVim**.
 
-</TabItem>
 
-<TabItem value="docker" label="Try it with Docker">
-
+### Docker
 ```sh
 docker run -w /root -it --rm alpine:edge sh -uelic '
   apk add git lazygit neovim ripgrep alpine-sdk --update
@@ -99,8 +91,6 @@ docker run -w /root -it --rm alpine:edge sh -uelic '
 '
 ```
 
-</TabItem>
-</Tabs>
 
 :::tip
 
