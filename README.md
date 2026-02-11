@@ -23,7 +23,19 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
   git clone https://github.com/jalaxy33/nvim.config ~/.config/nvim
   ```
 
-- [optional] Remove the .git folder, so you can add it 
+
+- [Optional] Remove the .git folder, so you can add it to your own repo later
+
+  ```sh
+  rm -rf ~/.config/nvim/.git
+  ```
+
+- Start Neovim!
+
+  ```sh
+  nvim
+  ```
+
 
 ## Useful Links
 
