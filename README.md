@@ -3,6 +3,27 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
+## Requirements
+
+Please refer to [lazyvim](https://www.lazyvim.org/) installation guides.
+
+Other than the provided requirements, you also need:
+
+- [luarocks](https://github.com/luarocks/luarocks)
+- [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md):
+
+  ```sh
+  npm install -g tree-sitter-cli
+  ```
+
+- LaTex support：[tectonic](https://tectonic-typesetting.github.io/en-US/)
+- [mermaid-cli](https://github.com/mermaid-js/mermaid-cli)
+
+Optional：
+
+- `Node.js` support (recommend using: [fnm](https://github.com/Schniz/fnm))
+- python support (recommend using: [uv](https://docs.astral.sh/uv/))
+
 ## Installation
 
 - Make a backup of your current Neovim files:
@@ -23,7 +44,6 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
   git clone https://github.com/jalaxy33/nvim.config ~/.config/nvim
   ```
 
-
 - [Optional] Remove the .git folder, so you can add it to your own repo later
 
   ```sh
@@ -35,7 +55,6 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
   ```sh
   nvim
   ```
-
 
 ## Useful Links
 
