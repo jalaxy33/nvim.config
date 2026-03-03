@@ -18,10 +18,11 @@ Other than the provided requirements, you also need:
 
 - LaTex support：[tectonic](https://tectonic-typesetting.github.io/en-US/)
 - [mermaid-cli](https://github.com/mermaid-js/mermaid-cli)
+- [ghostscript](https://ghostscript.com/)
 
 Optional：
 
-- `Node.js` support (recommend using: [fnm](https://github.com/Schniz/fnm))
+- `Node.js` support
 - python support (recommend using: [uv](https://docs.astral.sh/uv/))
 
 ## Installation
