@@ -14,6 +14,9 @@ Other than the provided requirements, you also need:
 
   ```sh
   npm install -g tree-sitter-cli
+
+  # or install with cargo
+  cargo install tree-sitter-cli
   ```
 
 - LaTex support：[tectonic](https://tectonic-typesetting.github.io/en-US/)
